@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <title>simple project 1 page</title>
+</head>
+<header>
+<body class="bg-color-primary text-color-white">
+    <nav class="container flex justify-between items-center">
+        <div class=" text-color-secondary py-5 font-bold text-3xl">
+            <a href="#Home">
+                <span class="text-color-white">light</span>.code
+            </a>
+
+        </div>
+        <div class="flex ">
+            <ul class=" hidden lg:flex space-x-6 text-2xl items-center cursor-pointer  ">
+                <li><a class="hover:text-color-secondary transition-colors duration-75" href="#Home">Home</a></li>
+                <li><a class="hover:text-color-secondary transition-colors duration-75" href="#Feathers">Feathers</a></li>
+                <li><a class="hover:text-color-secondary transition-colors duration-75" href="#Testmonials">Testmonials</a></li>
+                <li><a class="hover:text-color-secondary transition-colors duration-75" href="#Pricing">Pricing</a></li>
+                <li><a class="hover:text-color-secondary transition-colors duration-75" href="#blogContact">blog</a></li>
+                
+                <li><a class="hover:text-color-secondary transition-colors duration-75" href="#Contact">Contact</a></li>
+                <li><button class="border-1 bg-color-secondary px-7  py-3 rounded-md hover:opacity-80 ease-in  duration-200 ">Free Trial</button></li>
+            </ul>
+        </div>
+        <!--Mobile Screen-->
+        <div id="Hamburger" class="lg:hidden cursor-pointer z-50">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="Menu "  class="hidden bg-color-primary h-[100vh] absolute inset-0">
+            <ul class=" grid h-full place-items-center py-20">
+                <li  id="h-link"><a class="hover:text-color-secondary transition-colors duration-75" href="#Home">Home</a></li>
+                <li id="h-link"><a class="hover:text-color-secondary transition-colors duration-75" href="#Feathers">Feathers</a></li>
+                <li id="h-link"><a class="hover:text-color-secondary transition-colors duration-75" href="#Testmonials">Testmonials</a></li>
+                <li id="h-link"><a class="hover:text-color-secondary transition-colors duration-75" href="#Pricing">Pricing</a></li>
+                <li id="h-link"><a class="hover:text-color-secondary transition-colors duration-75" href="#blogContact">blog</a></li>
+                
+                <li id="h-link"><a class="hover:text-color-secondary transition-colors duration-75" href="#Contact">Contact</a></li>
+                <li id="h-link"><button class="border-1 btn ">Free Trial</button></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+</header>
+<main>
+    <section id="Home " class="relative">
+        
+        <div class="container py-20 ">
+            <div class="blob1  "></div>
+        <div class="blob2 "></div>
+            <div class="flex flex-col   items-center z-20 md:flex-row ">
+                <div class="  text-center md:text-left md:w-1/2 mb-12 md:pr-10" >
+                    <h1 class="text-3xl md:text-4xl leading-snug font-bold mb-4">Awesome App for Yor Financial.</h1>
+                    <p class="leading-relaxed mb-10">This should be used to tell a story and let your users know a little more about app and it's use, How can benefit them.</p>
+                    <button class="btn  ">Download App</button>
+                </div>
+                <div class="md:w-1/2">
+                    <img class="w-96 ml-40" src="/image/606587.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="feathers">
+        <div class="container py-20 bg-color-primary-light">
+            <div class="text-center mb-20 m-auto md:w-1/2  ">
+            <h4 class="text-color-secondary mb-4 font-bold text-xl">Our Future</h4>
+            <h1 class="title ">Easy To Manage All <br> Payments Buy Our App</h1>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 lg:grid-gap-8 px-4 grid-cols-1 sm:px-6 lg:px-8 ">
+                <div class="border-2 border-solid border-color-gray text-center  rounded-xl py-20 px-5 cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                    <div class="py-20 px-5 ">
+                        
+                        <i class="fas fa-calendar-alt  bg-color-secondary inline-block text-4xl p-4 rounded-2xl py-5 px-6"></i>
+                        <h3 class="text-xl font-bold py-4">Expense Trackering</h3>
+                        <p class="text-xl leading-relaxed">Me use an application design a testing gnose to keep away</p>
+                    </div>
+
+                </div>
+                <div class="border-2 border-solid border-color-gray text-center  rounded-xl py-20 px-5 cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                    <div class="py-20 px-5 ">
+                        
+                        <i class="fa-solid fa-chart-column  bg-color-secondary inline-block text-4xl p-4 rounded-2xl py-5 px-6"></i>
+                        <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+                        <p class="text-xl leading-relaxed">Me use an application design a testing gnose to keep away</p>
+                    </div>
+                </div>
+                <div class="border-2 border-solid border-color-gray text-center  rounded-xl py-20 px-5 cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                    <div class="py-20 px-5 ">
+                        
+                        <i class="fas fa-phone-alt   bg-color-secondary inline-block text-4xl p-4 rounded-2xl py-5 px-6"></i>
+                        <h3 class="text-xl font-bold py-4">Support 24/24</h3>
+                        <p class="text-xl leading-relaxed">Me use an application design a testing gnose to keep away</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <section id="saving money ">
+        
+        <div class="container py-20 relative ">
+            <div class="blob1  "></div>
+        <div class="blob2 "></div>
+            <div class="flex  flex-col justify-between md:flex-row lg:max-80  items-center ">
+                <div class="item-center md:w-1/2   py-20  "> 
+                    <img src="/image/pic-2.webp" alt=""> 
+                </div>
+                <div class="text-center md:text-left md:w-1/2 md:ml-44  ">
+                    <h4 class="mb-4 text-color-secondary font-bold text-xl">Saving Money</h4>
+                    <h1 class="title mb-4">Best financing App To Save Your Money</h1>
+                    <p class="mb-10 leading-relaxed">Best financing app ever in the world.Easy to use and very user frindly for mobile banking. You can control your card easily and send money some one just one click.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <div class="text-center mb-20 m-auto md:w-1/2  ">
+                <h4 class="text-color-secondary mb-4 font-bold text-xl">How It Works</h4>
+                <h1 class="title ">Grow Up Your Money <br> Saving</h1>
+                </div>
+                <div class="flex flex-col md:flex-row text-center justify-around items-center space-y-6 md:space-x-6">
+                    <!--cards 1-->
+                    <div class="text-center cursor-pointer">
+                        <div class="bg-color-primary-dark inline-block rounded-lg hover:bg-color-secondary ease in duration-200 px-6 py-2 ">
+                            <p class="text-6xl">1</p>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold py-4">Install The App</h3>
+                        <p class="text-xl leading-relaxed">We use a customized  application <br>specifically designed</p>
+                    </div>
+                    <div class="text-center cursor-pointer">
+                        <div class=" inline-block rounded-lg bg-color-secondary   px-6 py-2 ">
+                            <p class="text-6xl">2</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4 ">Set Up Your Profile</h3>
+                        <p class="text-xl leading-relaxed">We use a customized  application <br>specifically designed</p>
+                    </div>
+                    <div class="text-center cursor-pointer">
+                        <div class="bg-color-primary-dark inline-block rounded-lg hover:bg-color-secondary ease in duration-200 px-6 py-2 ">
+                            <p class="text-6xl">3</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Enjoy The Feathers</h3>
+                        <p class="text-xl leading-relaxed">We use a customized  application <br> specifically designed</p>
+                    </div>
+                </div>
+        </div> 
+
+    </section>
+
+    <section id="textmonial">
+        <div class="container py-20">
+            <div class="text-center mb-20 m-auto md:w-1/2  ">
+                <h4 class="text-color-secondary mb-4 font-bold text-xl">User Review</h4>
+                <h1 class="title ">What Client Say About  <br> Our App After Use It</h1>
+                </div>
+                <div class="mt-8">
+
+                
+                <!--review container-->
+                <div class="flex items-center justify-center flex-wrap">
+                    <img class="cursor-pointer user-pic h-20 w-20 rounded-full p-1 m-3" src="./image/user1.jpg" alt="">
+                    <img class="cursor-pointer user-pic h-20 w-20 rounded-full p-1 m-3" src="./image/user2.jpg" alt="">
+                    <img class="cursor-pointer user-pic h-20 w-20 rounded-full p-1 m-3" src="./image/user3.jpg" alt="">
+                    <img class="cursor-pointer user-pic h-20 w-20 rounded-full p-1 m-3" src="./image/user4.jpg" alt="">
+                </div>
+
+                <div class="text-center py-10 grid place-items-center m-auto md:w-4/5 min-h-[40vh] ">
+                    <div class="user.pic">                    
+                    <p class="md:text-2xl mb-10" >"THis should e used to tell a story and include any testmonials you might have about your product or service for your clients"!</p>
+                    <h1 class="text-color-secondary font-bold mb-1">Markin Neasus</h1>
+                    <h1>IOS developer</h1>
+                </div>
+                <div class="user.pic">                    
+                    <p class="md:text-2xl mb-10" >"THis should e used to tell a story and include any testmonials you might have about your product or service for your clients"!</p>
+                    <h1 class="text-color-secondary font-bold mb-1">Vera Duncan</h1>
+                    <h1>IOS developer</h1>
+                </div>
+                <div class="user.pic">                    
+                    <p class="md:text-2xl mb-10" >"THis should e used to tell a story and include any testmonials you might have about your product or service for your clients"!</p>
+                    <h1 class="text-color-secondary font-bold mb-1">Pirtle Karol</h1>
+                    <h1>IOS developer</h1>
+                </div>
+                <div class="user.pic">                    
+                    <p class="md:text-2xl mb-10" >"THis should e used to tell a story and include any testmonials you might have about your product or service for your clients"!</p>
+                    <h1 class="text-color-secondary font-bold mb-1">Mark Joe</h1>
+                    <h1>IOS developer</h1>
+                </div>
+                <div class="user.pic">                    
+                    <p class="md:text-2xl mb-10" >"THis should e used to tell a story and include any testmonials you might have about your product or service for your clients"!</p>
+                    <h1 class="text-color-secondary font-bold mb-1">Lionel Messi</h1>
+                    <h1>IOS developer</h1>
+                </div>
+                </div>
+
+        </div>
+
+    </section>
+</main>
+<script>
+    //mobile menu
+    const Hamburger = document.querySelector('#Hamburger');
+    const Menu = document.querySelector('#Menu');
+    const h-link = document.querySelector('h-link');
+    const fa-solid = document.querySelector('.fa-solid');
+    Menu.classList.toggle('hidden');
+    faSolid.classList.toggle('fa-xmark')
+
+</script> 
+</body>
+</html>
